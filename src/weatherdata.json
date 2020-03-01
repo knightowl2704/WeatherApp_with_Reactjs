@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "title": "Monday",
+        "data": "26"
+    },
+    {
+        "id": 2,
+        "title": "Tuesday",
+        "data": "23"
+    },
+    {
+        "id": 3,
+        "title": "Thursday",
+        "data": "26"
+    },
+    {
+        "id": 4,
+        "title": "Friday",
+        "data": "29"
+    }
+]

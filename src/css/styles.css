@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: serif;
+}
+.App{
+    text-align: center;
+    padding: 20px;
+}
+
+.App button{
+    padding-top: 20px;
+    padding: 0.1%;
+    text-align: center;
+}
+
+.card-each{
+    /* background-color: blue; */
+    display: grid;
+}
+
+.card-each h1{
+    /* background-color: blueviolet; */
+    color: black;
+    opacity: 0.5;
+    text-align: center;
+}
+.card-each p{
+    font-weight: 400;
+    /* background-color: brown; */
+    font-size: large;
+    text-align: center;
+    justify-content: end;
+    border: royalblue solid 1px;
+    padding: 10px;
+}
+
+.day{
+    font-size: large;
+    padding: 10px;
+    color: slateblue;
+    font-weight: 400px;
+}
