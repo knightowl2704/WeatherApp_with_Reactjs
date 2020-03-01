@@ -26,15 +26,19 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          <h1>Weather App</h1>
+          <h1 class='lead'>Weather App</h1>
         </p>
       </header>
 
-      <button onClick={increment}>Next Day</button>
-      <button onClick={reset}>Reset</button>
+      <div class="weather-buttons">
+          <button onClick={increment} type="button" class="btn btn-primary">Next</button>
+          <button onClick={reset} type="button" class="btn btn-warning">Reset</button>
+      </div>
 
+      
       {/* <p>{count}</p> */}
       <p className='day'>{today}</p>
+
 
     </div>
   );
