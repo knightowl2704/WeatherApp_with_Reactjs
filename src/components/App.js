@@ -35,6 +35,7 @@ function App() {
           <button onClick={reset} type="button" class="btn btn-warning">Reset</button>
       </div>
 
+
       
       {/* <p>{count}</p> */}
       <p className='day'>{today}</p>

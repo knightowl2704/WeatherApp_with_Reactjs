@@ -4,8 +4,10 @@
     box-sizing: border-box;
 }
 
-
-.App{
+body{
+    background: linear-gradient(to right, #d500f9,#7b1fa2);
+}
+/* .App{
     text-align: center;
     padding: 20px;
 }
@@ -13,33 +15,97 @@
 .btn{
     display: inline-flex;
     margin-right: 5px;
-    /* padding: 10; */
-}
+} */
 
-.card-each{
+/* .card-each{ */
     /* background-color: blue; */
-    display: grid;
-}
+    /* display: grid; */
+/* } */
 
-.card-each h1{
+/* .card-each h1{ */
     /* background-color: blueviolet; */
-    color: black;
+    /* color: black;
     opacity: 0.5;
     text-align: center;
 }
 .card-each p{
-    font-weight: 400;
+    font-weight: 400; */
     /* background-color: brown; */
-    font-size: large;
+    /* font-size: large;
     text-align: center;
     justify-content: end;
     border: royalblue solid 1px;
     padding: 10px;
+} */
+
+.container{
+    font-family: Montserrat, sans-serif;
+    display: grid;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr 1fr ;
+    grid-template-areas: "item1 item3"
+                           "item2 item3 "
+                           "item6 item5"
+                           ". item4 ";
+
 }
 
-.day{
+.header{
+    color: black;
+    font-family: Montserrat, sans-serif;
+    text-align: center
+}
+.container .item-1{
+    grid-area: item1;
+    justify-self: center;
+    justify-content: center;
+    }
+.container .item-2{
+    grid-area: item2;
+    justify-self: center;
+    justify-content: center;
+    }
+.container .item-3{
+    justify-self: center;
+    justify-content: center;
+    grid-area: item3;}
+.container .item-4{
+    grid-area: item4;
+    justify-self: center;
+    justify-content: center;
+    }
+.container .item-5{
+    grid-area: item5;
+    justify-self: center;
+    justify-content: center;
+    }
+.container .item-6{
+    grid-area: item6;
+    justify-self: center;
+    list-style-type: none;
+    justify-content: center;
+    }
+
+/* .day{
     font-size: 50px;
     padding: 10px;
     color: lavender;
     font-weight: 400px;
+} */
+
+.WeatherInfo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.WeatherInfo h1{
+    background: linear-gradient(to right, rgb(161, 1, 201),rgb(123, 4, 235));
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
