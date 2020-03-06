@@ -5,7 +5,23 @@
 }
 
 body{
-    background: linear-gradient(to right, #d500f9,#7b1fa2);
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto;
+    background: linear-gradient(90deg, #8d6fd4,#4bb7e9);
+}
+
+.jumbotron{
+    background-color: transparent;
+}
+
+.jumbotron div{
+    padding-top: 0px;
+    font-size: large;
+    letter-spacing: 0.5px;
+    list-style-type: none;
+}
+
+.page-header{
+    padding-top: 80px;
 }
 /* .App{
     text-align: center;
@@ -39,28 +55,27 @@ body{
 } */
 
 .container{
-    font-family: Montserrat, sans-serif;
-    display: grid;
-    background-color: white;
-    border-radius: 15px;
-    padding: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+    display: block;
+    /* background-color: white; */
+    /* border-radius: 15px; */
+    /* padding: 10px; */
     font-weight: bold;
     font-size: 20px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 2fr 1fr ;
-    grid-template-areas: "item1 item3"
-                           "item2 item3 "
-                           "item6 item5"
-                           ". item4 ";
 
 }
 
 .header{
-    color: black;
-    font-family: Montserrat, sans-serif;
-    text-align: center
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+
+    /* font-family: Montserrat, sans-serif; */
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.5;
 }
-.container .item-1{
+/* .container .item-1{
     grid-area: item1;
     justify-self: center;
     justify-content: center;
@@ -89,7 +104,7 @@ body{
     justify-self: center;
     list-style-type: none;
     justify-content: center;
-    }
+    } */
 
 /* .day{
     font-size: 50px;
@@ -98,14 +113,14 @@ body{
     font-weight: 400px;
 } */
 
-.WeatherInfo{
+/* .WeatherInfo{
     display: flex;
     justify-content: space-evenly;
-}
+} */
 
-.WeatherInfo h1{
-    background: linear-gradient(to right, rgb(161, 1, 201),rgb(123, 4, 235));
+/* .WeatherInfo h1{
+    background: linear-gradient(to right, rgb(240, 255, 36),rgb(255, 217, 0));
     padding: 10px;
     display: flex;
     justify-content: center;
-}
+} */

@@ -4,16 +4,17 @@ import { render } from 'react-dom';
 import '../css/styles.css'
 
 const Card = function(props){
-    console.log("props", props.props.coordinatesLive)
     
     return(
         <div>
-            <h1 class="header">Weather Information</h1>
+            
                
-            <div class="container">
+            <div class="jumbotron text-center">
+            <h1 class="page-header text-center">Weather Information</h1>
+                <div className="lead m-3 text-dark">
                 <div class="item-1">Latitude: {props.props.coordinatesLive.latitude}</div>
                 <div class="item-2">Longitude: {props.props.coordinatesLive.longitude}</div>
-                <div class="item-3">Place: {props.props.place}, {props.props.country}</div>
+                {/* <div class="item-3">Place: {props.props.country}</div> */}
                 <div class="item-4">Weather: {props.props.weather[0]['main']}</div>
                 <div class="item-5">Wind: {props.props.wind.speed}</div>
                 <div class="item-6">
@@ -24,6 +25,8 @@ const Card = function(props){
                         <li>Humidity: {props.props.main.humidity}</li>
                         <li>Pressure: {props.props.main.pressure}</li>
                 </div>
+                </div>
+                
     
         {/* <ul>
             <li>Longitude:{t['lon']}</li>
