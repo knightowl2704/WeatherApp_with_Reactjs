@@ -16,6 +16,7 @@ body{
 .jumbotron div{
     padding-top: 0px;
     font-size: large;
+    font-weight: 350;
     letter-spacing: 0.5px;
     list-style-type: none;
 }
