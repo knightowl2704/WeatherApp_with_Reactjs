@@ -21,6 +21,7 @@ body{
 }
 
 .page-header{
+    color: rgb(56, 56, 56);
     padding-top: 80px;
 }
 /* .App{
