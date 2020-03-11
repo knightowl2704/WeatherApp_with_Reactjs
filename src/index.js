@@ -36,9 +36,8 @@ class WeatherApp extends Component{
                                       logo:data.icon
                                   }))
           .catch(console.log(this.state))
-
-          },1500)
           
+          },1500)
             
         })
         p2.then(()=>{
@@ -51,10 +50,13 @@ class WeatherApp extends Component{
         console.warn(error.code, error.message); 
         if (error.code === 1) {
           console.log("they said no")
+          alert(error.message);
         } else if (error.code === 2) {
           console.log("position unavailable")
+          alert(error.message);
         } else if (error.code === 3) {
           console.log("timeout")
+          alert(error.message);
         }
       }
     
