@@ -49,13 +49,13 @@ class WeatherApp extends Component{
     onGeolocateError = (error) => {
         console.warn(error.code, error.message); 
         if (error.code === 1) {
-          console.log("they said no")
+          // console.log("they said no")
           alert(error.message);
         } else if (error.code === 2) {
-          console.log("position unavailable")
+          // console.log("position unavailable")
           alert(error.message);
         } else if (error.code === 3) {
-          console.log("timeout")
+          // console.log("timeout")
           alert(error.message);
         }
       }
